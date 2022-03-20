@@ -12,4 +12,7 @@ scoreboard players set __PLAYING__ SnowBattleSettings 0
 scoreboard players set __PLAYER_COUNT__ SnowBattleSettings 0
 team empty SnowBattle
 
+scoreboard objectives remove SnowBattle
+scoreboard objectives add SnowBattle dummy
+
 tellraw @a ["",{"text":"[SnowBattle] ","color":"aqua"},{"text":"SnowBattleで墓穴を掘りまくって相手を落としてやろう！w "},{"text":"[参加する]","underlined":true,"color":"aqua","clickEvent":{"action":"run_command","value":"/tp 579 68 74"}}]

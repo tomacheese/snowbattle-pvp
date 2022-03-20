@@ -28,3 +28,4 @@ scoreboard players set __PLAYING__ SnowBattleSettings 1
 
 effect clear @a[team=SnowBattle]
 effect give @a[team=SnowBattle] minecraft:regeneration 1 255
+effect give @a[team=SnowBattle] minecraft:resistance 255 255 true

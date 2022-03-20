@@ -7,6 +7,7 @@ tellraw @a ["",{"text":"[SnowBattle] ","color":"aqua"},"勝者は ",{"selector":
 tp @a[team=SnowBattle] 611 80 82
 scoreboard players add @a[team=SnowBattle] SnowBattleWinner 1
 gamemode creative @a[team=SnowBattle]
+clear @a[team=SnowBattle]
 
 scoreboard players set __PLAYING__ SnowBattleSettings 0
 scoreboard players set __PLAYER_COUNT__ SnowBattleSettings 0

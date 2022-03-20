@@ -5,5 +5,6 @@ tellraw @a ["",{"text":"[SnowBattle] ","color":"aqua"},{"selector":"@a[team=Snow
 tp @a[team=SnowBattleFell] 611 80 82
 gamemode creative @a[team=SnowBattleFell]
 team leave @a[team=SnowBattleFell]
+clear @a[team=SnowBattleFell]
 
 # execute if entity @a[team=SnowBattleFell] run invload @s SnowBattle
